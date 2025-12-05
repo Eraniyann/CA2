@@ -4,12 +4,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Concrete Arts — Portfolio</title>
-  <meta name="description" content="Concrete Arts — art portfolio" />
+  <meta name="description" content="Concrete Arts — hand-crafted concrete wall art portfolio" />
   <link rel="stylesheet" href="adding.css">
 </head>
 <body>
 
-  <!-- Header -->
+  <!-- Header / Nav -->
   <header class="site-header">
     <div class="container header-row">
       <div class="brand">
@@ -19,7 +19,8 @@
           <div class="brand-sub">Hand-crafted modern creations</div>
         </div>
       </div>
-      <nav class="main-nav">
+
+      <nav class="main-nav" aria-label="Main navigation">
         <ul>
           <li><a href="#gallery">Gallery</a></li>
           <li><a href="#about">About</a></li>
@@ -29,148 +30,156 @@
     </div>
   </header>
 
-  <!-- Premium Carousel (with Pexels images) -->
-  <section class="hero-carousel">
-    <div class="slider">
-      <div class="slide">
-        <img src="https://images.pexels.com/photos/269320/pexels-photo-269320.jpeg" alt="Concrete art 1">
-        <div class="caption">
-          <h2>Sculptural Concrete Form</h2>
-          <p>Minimal relief blending modern design and texture.</p>
+  <main>
+
+    <!-- Premium Carousel (1.5s per slide) -->
+    <section class="hero-carousel" aria-roledescription="carousel">
+      <div class="slider">
+
+        <div class="slide">
+          <img src="https://images.pexels.com/photos/8580957/pexels-photo-8580957.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Elegant Concrete Art">
+          <div class="caption">
+            <h2>Elegant Concrete Art</h2>
+            <p>Luxury handcrafted design for modern homes.</p>
+          </div>
+        </div>
+
+        <div class="slide">
+          <img src="https://images.pexels.com/photos/7337451/pexels-photo-7337451.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Premium Wall Sculpture">
+          <div class="caption">
+            <h2>Premium Wall Sculpture</h2>
+            <p>Minimal detailing to elevate every space effortlessly.</p>
+          </div>
+        </div>
+
+        <div class="slide">
+          <img src="https://images.pexels.com/photos/8581116/pexels-photo-8581116.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Modern Decor Structure">
+          <div class="caption">
+            <h2>Modern Decor Structure</h2>
+            <p>Designed with precision to enhance interior aesthetics.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="carousel-nav">
+        <span></span><span></span><span></span>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery container">
+      <h2>Gallery</h2>
+
+      <!-- Modern Arts -->
+      <div class="category">
+        <h3>Modern Arts</h3>
+        <div class="grid">
+          <figure><img src="https://images.pexels.com/photos/279719/pexels-photo-279719.jpeg" alt="Modern Form I"><figcaption><strong>Modern Form I</strong><span class="desc">Sharp planes and calm surfaces.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/268284/pexels-photo-268284.jpeg" alt="Modern Form II"><figcaption><strong>Modern Form II</strong><span class="desc">Contrasting depths with soft finishes.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/1643389/pexels-photo-1643389.jpeg" alt="Plate"><figcaption><strong>Plate</strong><span class="desc">Layered plates in minimal composition.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/374906/pexels-photo-374906.jpeg" alt="Fold"><figcaption><strong>Fold</strong><span class="desc">Elegant fold creating long shadows.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/704758/pexels-photo-704758.jpeg" alt="Panel"><figcaption><strong>Panel</strong><span class="desc">Large panel with micro texture.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg" alt="Axis"><figcaption><strong>Axis</strong><span class="desc">Balanced composition focused on axis.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/374023/pexels-photo-374023.jpeg" alt="Slice"><figcaption><strong>Slice</strong><span class="desc">Thin slice creating crisp lines.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/377514/pexels-photo-377514.jpeg" alt="Intersect"><figcaption><strong>Intersect</strong><span class="desc">Intersecting forms and soft edges.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/377524/pexels-photo-377524.jpeg" alt="Recess"><figcaption><strong>Recess</strong><span class="desc">Deep recesses with dramatic shade.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/377529/pexels-photo-377529.jpeg" alt="Study"><figcaption><strong>Study</strong><span class="desc">Compact study of volume and light.</span></figcaption></figure>
         </div>
       </div>
-      <div class="slide">
-        <img src="https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg" alt="Concrete art 2">
-        <div class="caption">
-          <h2>Monochrome Wall Panel</h2>
-          <p>Perfect for contemporary interiors and gallery walls.</p>
+
+      <!-- Wall Arts -->
+      <div class="category">
+        <h3>Wall Arts</h3>
+        <div class="grid">
+          <figure><img src="https://images.pexels.com/photos/290596/pexels-photo-290596.jpeg" alt="Panel A"><figcaption><strong>Panel A</strong><span class="desc">Large-format wall panel.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/374023/pexels-photo-374023.jpeg" alt="Panel B"><figcaption><strong>Panel B</strong><span class="desc">Textured tile set modularly.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg" alt="Grid"><figcaption><strong>Grid</strong><span class="desc">Repeating grid of subtle reliefs.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/272474/pexels-photo-272474.jpeg" alt="Ribbon"><figcaption><strong>Ribbon</strong><span class="desc">Flowing ribbon across panels.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/374906/pexels-photo-374906.jpeg" alt="Mosaic"><figcaption><strong>Mosaic</strong><span class="desc">Small fragments forming a whole.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/704758/pexels-photo-704758.jpeg" alt="Horizon"><figcaption><strong>Horizon</strong><span class="desc">Long horizontal relief for halls.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/374845/pexels-photo-374845.jpeg" alt="Split Panels"><figcaption><strong>Split Panels</strong><span class="desc">Diptych & triptych compositions.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/374023/pexels-photo-374023.jpeg" alt="Relief I"><figcaption><strong>Relief I</strong><span class="desc">Subtle shadow-play finishes.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg" alt="Relief II"><figcaption><strong>Relief II</strong><span class="desc">High-contrast geometric panels.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/377514/pexels-photo-377514.jpeg" alt="Modular Set"><figcaption><strong>Modular Set</strong><span class="desc">Configurable tiles for any wall.</span></figcaption></figure>
         </div>
       </div>
-      <div class="slide">
-        <img src="https://images.pexels.com/photos/276552/pexels-photo-276552.jpeg" alt="Concrete art 3">
-        <div class="caption">
-          <h2>Geometry Meets Craft</h2>
-          <p>Clean lines and subtle finishes for modern spaces.</p>
+
+      <!-- Statue Crafts -->
+      <div class="category">
+        <h3>Statue Crafts</h3>
+        <div class="grid">
+          <figure><img src="https://images.pexels.com/photos/269579/pexels-photo-269579.jpeg" alt="Study I"><figcaption><strong>Study I</strong><span class="desc">Small sculpted form for niches.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/279160/pexels-photo-279160.jpeg" alt="Study II"><figcaption><strong>Study II</strong><span class="desc">Hand-finished small bust.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg" alt="Figurine"><figcaption><strong>Figurine</strong><span class="desc">Minimal figurative silhouette.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/374932/pexels-photo-374932.jpeg" alt="Guardian"><figcaption><strong>Guardian</strong><span class="desc">Bold, architectural statuette.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/275870/pexels-photo-275870.jpeg" alt="Mask"><figcaption><strong>Mask</strong><span class="desc">Iconic mask-like facework.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/374848/pexels-photo-374848.jpeg" alt="Torso"><figcaption><strong>Torso</strong><span class="desc">Stylised torso with texture.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/279161/pexels-photo-279161.jpeg" alt="Column"><figcaption><strong>Column</strong><span class="desc">Vertical study for tall displays.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/369488/pexels-photo-369488.jpeg" alt="Relic"><figcaption><strong>Relic</strong><span class="desc">Worn finish that feels aged.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/274973/pexels-photo-274973.jpeg" alt="Monument"><figcaption><strong>Monument</strong><span class="desc">Miniature monument form.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/328870/pexels-photo-328870.jpeg" alt="Study III"><figcaption><strong>Study III</strong><span class="desc">Delicate low-relief statue.</span></figcaption></figure>
         </div>
       </div>
-    </div>
-    <div class="carousel-nav">
-      <span></span><span></span><span></span>
-    </div>
-  </section>
 
-  <!-- Gallery -->
-  <section id="gallery" class="gallery container">
-    <h2>Gallery</h2>
-
-    <!-- Modern Arts -->
-    <div class="category">
-      <h3>Modern Arts</h3>
-      <div class="grid">
-        <!-- 10 example Pexels images -->
-        <figure><img src="https://images.pexels.com/photos/279719/pexels-photo-279719.jpeg" alt=""><figcaption><strong>Modern Form I</strong><span class="desc">Sharp planes and calm surfaces.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/268284/pexels-photo-268284.jpeg" alt=""><figcaption><strong>Modern Form II</strong><span class="desc">Contrasting depths with soft finishes.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/1643389/pexels-photo-1643389.jpeg" alt=""><figcaption><strong>Plate</strong><span class="desc">Layered plates in minimal composition.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/374906/pexels-photo-374906.jpeg" alt=""><figcaption><strong>Fold</strong><span class="desc">Elegant fold creating long shadows.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/704758/pexels-photo-704758.jpeg" alt=""><figcaption><strong>Panel</strong><span class="desc">Large panel with micro texture.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg" alt=""><figcaption><strong>Axis</strong><span class="desc">Balanced composition focused on axis.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/374023/pexels-photo-374023.jpeg" alt=""><figcaption><strong>Slice</strong><span class="desc">Thin slice creating crisp lines.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/377514/pexels-photo-377514.jpeg" alt=""><figcaption><strong>Intersect</strong><span class="desc">Intersecting forms and soft edges.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/377524/pexels-photo-377524.jpeg" alt=""><figcaption><strong>Recess</strong><span class="desc">Deep recesses with dramatic shade.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/377529/pexels-photo-377529.jpeg" alt=""><figcaption><strong>Study</strong><span class="desc">Compact study of volume and light.</span></figcaption></figure>
+      <!-- Home Decor -->
+      <div class="category">
+        <h3>Home Decor</h3>
+        <div class="grid">
+          <figure><img src="https://images.pexels.com/photos/271815/pexels-photo-271815.jpeg" alt="Tile Set"><figcaption><strong>Tile Set</strong><span class="desc">Decorative tiles for kitchens.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/279718/pexels-photo-279718.jpeg" alt="Shelf"><figcaption><strong>Shelf</strong><span class="desc">Small shelf with sculpted front.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/276554/pexels-photo-276554.jpeg" alt="Vessel"><figcaption><strong>Vessel</strong><span class="desc">Decorative vessel for planters.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/374966/pexels-photo-374966.jpeg" alt="Candle Tray"><figcaption><strong>Candle Tray</strong><span class="desc">Minimal tray for candles.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg" alt="Coaster Set"><figcaption><strong>Coaster Set</strong><span class="desc">Practical yet sculptural coasters.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/704758/pexels-photo-704758.jpeg" alt="Sculpt"><figcaption><strong>Sculpt</strong><span class="desc">Decorative desktop sculpture.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/374023/pexels-photo-374023.jpeg" alt="Hook"><figcaption><strong>Hook</strong><span class="desc">Functional hook with character.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/374906/pexels-photo-374906.jpeg" alt="Plate"><figcaption><strong>Plate</strong><span class="desc">Display plate with subtle texture.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg" alt="Bookend"><figcaption><strong>Bookend</strong><span class="desc">Stylish bookend pair.</span></figcaption></figure>
+          <figure><img src="https://images.pexels.com/photos/377514/pexels-photo-377514.jpeg" alt="Mini Relief"><figcaption><strong>Mini Relief</strong><span class="desc">Small wall accent piece.</span></figcaption></figure>
+        </div>
       </div>
-    </div>
 
-    <!-- Wall Arts -->
-    <div class="category">
-      <h3>Wall Arts</h3>
-      <div class="grid">
-        <!-- 10 example Pexels images -->
-        <figure><img src="https://images.pexels.com/photos/290596/pexels-photo-290596.jpeg" alt=""><figcaption><strong>Panel A</strong><span class="desc">Large-format wall panel.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/374023/pexels-photo-374023.jpeg" alt=""><figcaption><strong>Panel B</strong><span class="desc">Textured tile set modularly.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg" alt=""><figcaption><strong>Grid</strong><span class="desc">Repeating grid of subtle reliefs.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/272474/pexels-photo-272474.jpeg" alt=""><figcaption><strong>Ribbon</strong><span class="desc">Flowing ribbon across panels.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/374906/pexels-photo-374906.jpeg" alt=""><figcaption><strong>Mosaic</strong><span class="desc">Small fragments forming a whole.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/704758/pexels-photo-704758.jpeg" alt=""><figcaption><strong>Horizon</strong><span class="desc">Long horizontal relief for halls.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/374845/pexels-photo-374845.jpeg" alt=""><figcaption><strong>Split Panels</strong><span class="desc">Diptych & triptych compositions.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/374023/pexels-photo-374023.jpeg" alt=""><figcaption><strong>Relief I</strong><span class="desc">Subtle shadow-play finishes.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg" alt=""><figcaption><strong>Relief II</strong><span class="desc">High-contrast geometric panels.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/377514/pexels-photo-377514.jpeg" alt=""><figcaption><strong>Modular Set</strong><span class="desc">Configurable tiles for any wall.</span></figcaption></figure>
-      </div>
-    </div>
+    </section>
 
-    <!-- Statue Crafts -->
-    <div class="category">
-      <h3>Statue Crafts</h3>
-      <div class="grid">
-        <!-- 10 example Pexels images -->
-        <figure><img src="https://images.pexels.com/photos/269579/pexels-photo-269579.jpeg" alt=""><figcaption><strong>Study I</strong><span class="desc">Small sculpted form for niches.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/279160/pexels-photo-279160.jpeg" alt=""><figcaption><strong>Study II</strong><span class="desc">Hand-finished small bust.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg" alt=""><figcaption><strong>Figurine</strong><span class="desc">Minimal figurative silhouette.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/374932/pexels-photo-374932.jpeg" alt=""><figcaption><strong>Guardian</strong><span class="desc">Bold, architectural statuette.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/275870/pexels-photo-275870.jpeg" alt=""><figcaption><strong>Mask</strong><span class="desc">Iconic mask-like facework.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/374848/pexels-photo-374848.jpeg" alt=""><figcaption><strong>Torso</strong><span class="desc">Stylised torso with texture.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/279161/pexels-photo-279161.jpeg" alt=""><figcaption><strong>Column</strong><span class="desc">Vertical study for tall displays.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/369488/pexels-photo-369488.jpeg" alt=""><figcaption><strong>Relic</strong><span class="desc">Worn finish that feels aged.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/274973/pexels-photo-274973.jpeg" alt=""><figcaption><strong>Monument</strong><span class="desc">Miniature monument form.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/328870/pexels-photo-328870.jpeg" alt=""><figcaption><strong>Study III</strong><span class="desc">Delicate low-relief statue.</span></figcaption></figure>
-      </div>
-    </div>
+    <!-- About -->
+    <section id="about" class="about container">
+      <h2>About</h2>
+      <p>
+        Concrete Arts is a Dubai-based studio creating handcrafted concrete artworks and reliefs. Each piece is crafted and finished by hand with a focus on texture, form and minimalism. Commissions and custom sizes are available — contact for details.
+      </p>
+    </section>
 
-    <!-- Home Decor -->
-    <div class="category">
-      <h3>Home Decor</h3>
-      <div class="grid">
-        <!-- 10 example Pexels images -->
-        <figure><img src="https://images.pexels.com/photos/271815/pexels-photo-271815.jpeg" alt=""><figcaption><strong>Tile Set</strong><span class="desc">Decorative tiles for kitchens.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/279718/pexels-photo-279718.jpeg" alt=""><figcaption><strong>Shelf</strong><span class="desc">Small shelf with sculpted front.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/276554/pexels-photo-276554.jpeg" alt=""><figcaption><strong>Vessel</strong><span class="desc">Decorative vessel for planters.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/374966/pexels-photo-374966.jpeg" alt=""><figcaption><strong>Candle Tray</strong><span class="desc">Minimal tray for candles.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg" alt=""><figcaption><strong>Coaster Set</strong><span class="desc">Practical yet sculptural coasters.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/704758/pexels-photo-704758.jpeg" alt=""><figcaption><strong>Sculpt</strong><span class="desc">Decorative desktop sculpture.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/374023/pexels-photo-374023.jpeg" alt=""><figcaption><strong>Hook</strong><span class="desc">Functional hook with character.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/374906/pexels-photo-374906.jpeg" alt=""><figcaption><strong>Plate</strong><span class="desc">Display plate with subtle texture.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg" alt=""><figcaption><strong>Bookend</strong><span class="desc">Stylish bookend pair.</span></figcaption></figure>
-        <figure><img src="https://images.pexels.com/photos/377514/pexels-photo-377514.jpeg" alt=""><figcaption><strong>Mini Relief</strong><span class="desc">Small wall accent piece.</span></figcaption></figure>
-      </div>
-    </div>
+    <!-- Contact -->
+    <section id="contact" class="contact container">
+      <h2>Contact</h2>
+      <p>For enquiries or commissions, reach out via:</p>
+      <ul class="contact-list" aria-label="Contact details">
+        <li>
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011-.26 11.72 11.72 0 003.7.59 1 1 0 011 1v3.54a1 1 0 01-1 1A18 18 0 013 6a1 1 0 011-1h3.55a1 1 0 011 1 11.72 11.72 0 00.59 3.7 1 1 0 01-.26 1z"/></svg>
+          <span class="contact-text"><strong>Phone:</strong> <a href="tel:+918610383975">+91 8610383975</a></span>
+        </li>
+        <li>
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5z"/></svg>
+          <span class="contact-text"><strong>Email:</strong> <a href="mailto:eranvela@gmail.com">eranvela@gmail.com</a></span>
+        </li>
+        <li>
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.86 11.86 0 0012.04 0 11.86 11.86 0 000 11.86 11.77 11.77 0 001.71 17L0 24l7.18-1.88a11.91 11.91 0 0017.34-10.26 11.86 11.86 0 00-3-8.38z"/></svg>
+          <span class="contact-text"><strong>WhatsApp:</strong> <a href="https://wa.me/918610383975" target="_blank" rel="noopener">+91 8610383975</a></span>
+        </li>
+        <li>
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 112.5 6a2.5 2.5 0 012.48-2.5M3 8.98h4v12H3zM10 8.98h3.82v1.72h.05a4.19 4.19 0 013.77-2.07c4.03 0 4.77 2.65 4.77 6.08v6.29h-4v-5.58c0-1.33 0-3.05-1.86-3.05s-2.14 1.45-2.14 2.95v5.68h-4z"/></svg>
+          <span class="contact-text"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/eraniyan16/" target="_blank" rel="noopener">linkedin.com/in/eraniyan16</a></span>
+        </li>
+      </ul>
+    </section>
 
-  </section>
-
-  <!-- About -->
-  <section id="about" class="about container">
-    <h2>About</h2>
-    <p>
-      Concrete Arts is a studio creating handcrafted concrete artworks and reliefs. Each piece is crafted and finished by hand with a focus on texture, form and minimalism. Commissions and custom sizes are available — contact for details.
-    </p>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="contact container">
-    <h2>Contact</h2>
-    <p>For enquiries or commissions, reach out via:</p>
-    <ul class="contact-list">
-      <li>
-        <svg class="icon" viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011-.26 11.72 11.72 0 003.7.59 1 1 0 011 1v3.54a1 1 0 01-1 1A18 18 0 013 6a1 1 0 011-1h3.55a1 1 0 011 1 11.72 11.72 0 00.59 3.7 1 1 0 01-.26 1z"/></svg>
-        <span><strong>Phone:</strong> <a href="tel:+918610383975">+91 8610383975</a></span>
-      </li>
-      <li>
-        <svg class="icon" viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5z"/></svg>
-        <span><strong>Email:</strong> <a href="mailto:eranvela@gmail.com">eranvela@gmail.com</a></span>
-      </li>
-      <li>
-        <svg class="icon" viewBox="0 0 24 24"><path d="M20.52 3.48A11.86 11.86 0 0012.04 0 11.86 11.86 0 000 11.86 11.77 11.77 0 001.71 17L0 24l7.18-1.88a11.91 11.91 0 0017.34-10.26 11.86 11.86 0 00-3-8.38z"/></svg>
-        <span><strong>WhatsApp:</strong> <a href="https://wa.me/918610383975" target="_blank">+91 8610383975</a></span>
-      </li>
-      <li>
-        <svg class="icon" viewBox="0 0 24 24"><path d="M4.98 3.5A2.5 2.5 0 112.5 6a2.5 2.5 0 012.48-2.5M3 8.98h4v12H3zM10 8.98h3.82v1.72h.05a4.19 4.19 0 013.77-2.07c4.03 0 4.77 2.65 4.77 6.08v6.29h-4v-5.58c0-1.33 0-3.05-1.86-3.05s-2.14 1.45-2.14 2.95v5.68h-4z"/></svg>
-        <span><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/eraniyan16/" target="_blank">linkedin.com/in/eraniyan16</a></span>
-      </li>
-    </ul>
-  </section>
+  </main>
 
   <footer class="site-footer container">
-    <div>© Concrete Arts — All rights reserved</div>
+    <div class="footer-row">
+      <div>© Concrete Arts — All rights reserved</div>
+      <div class="muted">Designed with a minimal light theme — HTML & CSS only</div>
+    </div>
   </footer>
 
 </body>
